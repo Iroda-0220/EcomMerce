@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    /* display: flex; */
+    width: 1440px;
+    padding: 28px 165px 132px 165px;
+    /* justify-content:center; */
+    align-items: center;
+}
+
+/* HEADER */
+.site-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.list {
+    display: flex;
+    column-gap: 32px;
+}
+
+.link {
+    color: #69707D;
+    font-family: "Kumbh Sans";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 173.333% */
+}
+
+.site-logo {
+    padding-right: 35px;
+}
+
+.site_nav-icon {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 46px;
+}
+
+.site-nav {
+    position: relative;
+}
+
+.content {
+    width: 1110px;
+    height: 1px;
+    background: #515556;
+    position: absolute;
+    top: 100px;
+
+}
+
+/* HEADER */
+
+/* SECTION IMAGE */
+
+
+.img-group {
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+    padding-top: 32px;
+}
+
+/* SECTION IMAGE */
+.main {
+    display: flex;
+    column-gap: 125px;
+    align-items: center;
+
+
+}
+
+/* SECTION PRICE */
+
+
+.price-title {
+    width: 445px;
+    color: #FF7E1B;
+    font-family: "Kumbh Sans";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.price-ads {
+    width: 445px;
+    color: #1D2026;
+    font-family: "Kumbh Sans";
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    /* 109.091% */
+    padding-top: 24px;
+    padding-bottom: 34px;
+}
+
+.price-text {
+    width: 445px;
+    color: #69707D;
+    font-family: "Kumbh Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+}
+
+.price-cost {
+    display: flex;
+    align-items: center;
+    column-gap: 24px;
+
+}
+
+.cost {
+    color: #1D2026;
+    font-family: "Kumbh Sans";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 28px;
+    padding-bottom: 10px;
+}
+
+.discount {
+    color: #FF7E1B;
+    font-family: "Kumbh Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 51px;
+    height: 27px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    background: #FFEEE2;
+    text-align: center;
+    padding-top: 3px;
+    margin-top: 15px;
+}
+
+.price-span {
+    color: #B6BCC8;
+    font-family: "Kumbh Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    /* 162.5% */
+    text-decoration-line: strikethrough;
+}
+
+.btn-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 32px;
+}
+.coast-btn {
+    width: 157px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #F6F8FD;
+    display: flex;
+    column-gap: 40px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.main__product-num {
+    color: black;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.btn {
+    color: #FF7E1B;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+
+
+.btn_add {
+    width: 272px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FF7E1B;
+    box-shadow: 0px 20px 50px -20px #FF7E1B;
+    color: #FFF;
+    font-family: "Kumbh Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 23px   76px 17px 100px;
+   
+   
+}
+.add-btn-icon{
+    padding-right: 20px;
+}
+/* SECTION PRICE */
